@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Nunito:wght@600;700;800&display=swap'); 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 80%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns{
+    margin: 0 50px;
+    padding: 25px;
+    border:none;
+    border-radius: 5px;
+    background-color:white;
+    color:black;
+}
+
+.btns:hover{
+    background-color: rgb(208, 255, 0);
+    opacity: 0.9;
+    
+    
+}
+
+#btn {
+    margin-top: 75px;
+}
+
+.lampada{
+    width: 150px; 
+    height: 150px; 
+}
+.apagada{
+    background-color: #727272;
+}
+.acesa{
+    background-color: #ffff00;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+h1, h2, p, button {
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+
+
+#quadrado {
+    margin-top: 50px;
+}
+
+#quadrado2 {
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+#btn_quadrado {
+margin-top: 25px;
+margin: 50px 10px;
+text-align: center;
+}
+
+i {
+    font-family: "Font Awesome 6 Free";
+    content: "\10f185";
+    font-weight: 600;
+    cursor: pointer;
+}

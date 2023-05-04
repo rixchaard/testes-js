@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS - Aula 01</title>
+    <script src="https://kit.fontawesome.com/74f5d82ab4.js" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body class="wrapper">
+    <h1> JS? JS? VOCÊ DISSE JAVASCRIPT?</h1>
+    <div id="btn" class="wrapper flex">
+        <button class="btns" id="btn_alert" onclick="Alerta()"> Clica aqui dois P meu chefe</button>
+        <button class="btns" id="btn_data" onclick="Data()"> Data de hoje </button>
+        <p id="data"></p>
+        <p id="paragrafo" ondblclick="mudarParagrafo()" onmousedown="clicarParagrafo()" onmouseup="soltarParagrafo()">
+            Clique aqui para me mudar</p>
+    </div>
+    <div id="quadrado" style="width: 1px; height: 150px; background-color: #ff00f2;"></div>
+    <div class="wrapper flex">
+        <button id="btn_quadrado" class="btns" onclick="mudarCorDiv()">Clique para mudar a cor do
+            quadrado</button>
+        <button id="btn_quadrado" class="btns" onclick="mudarCorQuadrado()">Clique aqui para mudar a cor do quadrado (de
+            novo)</button>
+    </div>
+    </div>
+
+    <div class="wrapper lampada apagada" id="quadrado2"></div>
+    
+
+    <div class="wrapper flex">
+<button onclick="acenderLampada()"  class="btns">Acenda a lâmpada</button>
+<button onclick="apagarLampada()"  class="btns">Apague a lâmpada</button>
+    </div>
+
+
+
+</body>
+
+</html>
